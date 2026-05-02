@@ -67,5 +67,3 @@ student-result-analyzer/
 ## 📄 License
 
 Open source for educational use.
-```
-
