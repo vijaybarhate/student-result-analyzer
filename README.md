@@ -37,3 +37,35 @@ A Python-based data analysis tool that generates student data and produces visua
 
 1. Clone the repository
 2. Install dependencies:
+```
+pip install pandas matplotlib
+```
+3. Generate student data:
+```
+python generate_data.py
+```
+4. Run the analyzer:
+```
+python analyzer.py
+```
+5. Check the `output/` folder for generated charts
+
+---
+
+## 📁 Project Structure
+
+```
+student-result-analyzer/
+├── generate_data.py   # Generates fake student dataset
+├── analyzer.py        # Main analysis + visualization script
+├── students.csv       # Generated dataset
+└── output/            # Generated chart images
+```
+
+---
+
+## 📄 License
+
+Open source for educational use.
+```
+
